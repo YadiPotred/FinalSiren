@@ -7,17 +7,17 @@ workers_dev = true
 
 routes = [
 
-  { pattern = "afrcloud.biz.id", custom_domain = true },
-  { pattern = "support.zoom.us.afrcloud.biz.id", custom_domain = true },
-  { pattern = "ava.game.naver.com.afrcloud.biz.id", custom_domain = true },
-  { pattern = "graph.instagram.com.afrcloud.biz.id", custom_domain = true },
-  { pattern = "df.game.naver.com.afrcloud.biz.id", custom_domain = true },
-  { pattern = "zoomgov.com.afrcloud.biz.id", custom_domain = true }
+  { pattern = "cf-w.site", custom_domain = true },
+  { pattern = "support.zoom.us.cf-w.site", custom_domain = true },
+  { pattern = "ava.game.naver.com.cf-w.site", custom_domain = true },
+  { pattern = "graph.instagram.com.cf-w.site", custom_domain = true },
+  { pattern = "df.game.naver.com.cf-w.site", custom_domain = true },
+  { pattern = "zoomgov.com.cf-w.site", custom_domain = true }
   ]
 
 [[kv_namespaces]]
 binding = "SIREN"
-id = "e574b60ada104a97b59028ea9b54f89c"
+id = "5684a9ef808a47519728f4906d4e971c"
 
 [build]
 command = "cargo install -q worker-build && worker-build --release"
